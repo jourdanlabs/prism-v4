@@ -1,0 +1,19 @@
+{
+  "name": "prism-decision-model",
+  "version": "0.1.0",
+  "description": "PRISM (System-1.5 Factor-Graph Decision Model) — Phase-0 executable core",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "prism-mcp": "./src/mcp/server.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "bench": "node src/synth/run-bench.js",
+    "live": "node src/live/run-live-eval.js",
+    "prism-mcp": "node src/mcp/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
